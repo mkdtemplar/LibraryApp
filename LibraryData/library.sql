@@ -1,5 +1,5 @@
 --
--- File generated with SQLiteStudio v3.3.3 on Wed Sep 29 21:01:31 2021
+-- File generated with SQLiteStudio v3.3.3 on Wed Sep 29 21:41:11 2021
 --
 -- Text encoding used: System
 --
@@ -12,7 +12,6 @@ DROP TABLE IF EXISTS book;
 CREATE TABLE book (
     BookName         VARCHAR,
     Author           VARCHAR,
-    Photo            BLOB,
     YearOfPublishing INTEGER,
     id               INTEGER PRIMARY KEY AUTOINCREMENT
                              NOT NULL

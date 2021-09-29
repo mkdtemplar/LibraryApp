@@ -12,10 +12,7 @@ namespace LibraryData
     public partial class Client
     {
         [Column(TypeName = "VARCHAR")]
-        [Required]
         public string NameOfClient { get; set; }
-        [Required]
-        [Range(5,150)]
         public long? Age { get; set; }
         [Column("LibraryID")]
         public long? LibraryId { get; set; }
